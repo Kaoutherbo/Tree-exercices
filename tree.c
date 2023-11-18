@@ -1,5 +1,10 @@
 #include "tree.h"
 
+/**
+ * main - Entry point 
+ * 
+ * Return: Always 0
+*/
 int main() {
     // Example of a binary tree
     //        1

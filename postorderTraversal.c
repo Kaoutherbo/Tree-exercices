@@ -1,7 +1,14 @@
 #include "tree.h"
 
-// Post-order traversal (Left-Right-Root)
-void postorderTraversal(struct TreeNode* root) {
+/**
+ * postorderTraversal - Procedure that print data 
+ * Post-order traversal (Left-Right-Root)
+ * 
+ * @root: pointer to the root of tree
+ * Return: void
+*/
+
+void postorderTraversal(TreeNode* root) {
     if (root != NULL) {
         postorderTraversal(root->left);
         postorderTraversal(root->right);

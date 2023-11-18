@@ -14,8 +14,8 @@ typedef struct TreeNode {
 
 // prototypes of functions
 TreeNode* createNode(int key);
-void inorderTraversal(struct TreeNode* root);
-void preorderTraversal(struct TreeNode* root);
-void postorderTraversal(struct TreeNode* root);
+void inorderTraversal(TreeNode* root);
+void preorderTraversal(TreeNode* root);
+void postorderTraversal(TreeNode* root);
 
 #endif  /* TREE_H */

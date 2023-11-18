@@ -1,7 +1,14 @@
 #include "tree.h"
 
-// Pre-order traversal (Root-Left-Right)
-void preorderTraversal(struct TreeNode* root) {
+/**
+ * preorderTraversal - Procedure that print data 
+ * Pre-order traversal (Root-Left-Right)
+ * 
+ * @root: pointer to the root of tree
+ * Return: void
+*/
+
+void preorderTraversal(TreeNode* root) {
     if (root != NULL) {
         printf("%d ", root->data);
         preorderTraversal(root->left);
