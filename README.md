@@ -74,31 +74,35 @@ Prints the usage traversal corresponding to the user's option.
 * Return: void.
 
 
-### 7. `searchNode`:
+### 11. `searchNode`:
+#### Description:
+Searches for a key in the binary tree and returns true if the key is found, and false otherwise.
+#### Parameters:
+* root: Pointer to the root of the tree.
+* key: The value to search for in the tree.
+* Return: true if the key is found, false otherwise.
 
-Description: Searches for a key in the binary tree and returns true if the key is found, and false otherwise.
-Parameters:
-root: Pointer to the root of the tree.
-key: The value to search for in the tree.
-Return: true if the key is found, false otherwise.
-minNode:
+### 9. `minNode`:
+#### Description:
+Finds the minimum value in the binary tree.
+#### Parameters:
+* root: Pointer to the root of the tree.
+* Return: The minimum value found in the tree.
 
-Description: Finds the minimum value in the binary tree.
-Parameters:
-root: Pointer to the root of the tree.
-Return: The minimum value found in the tree.
-maxNode:
 
-Description: Finds the maximum value in the binary tree.
-Parameters:
-root: Pointer to the root of the tree.
-Return: The maximum value found in the tree.
-nbrNode:
+### 10. `maxNode`:
+#### Description:
+Finds the maximum value in the binary tree.
+#### Parameters:
+* root: Pointer to the root of the tree.
+* Return: The maximum value found in the tree.
 
-Description: Counts the number of nodes in the binary tree.
-Parameters:
-root: Pointer to the root of the tree.
-Return: The total number of nodes in the tree.
+### 8. `nbrNode`:
+#### Description:
+Counts the number of nodes in the binary tree.
+#### Parameters:
+* root: Pointer to the root of the tree.
+* Return: The total number of nodes in the tree.
 
 ## tree.c file:
 ## Description: 
