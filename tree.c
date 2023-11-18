@@ -31,11 +31,8 @@ int main() {
     else
         printf("\n%d is not found in the tree.\n",key);
     
-    int min, max;
-    min = minNode(root);
-    max = minNode(root);
     // print the min and max of tree
-    printf("\nMinimum value : %d \nMaximum value : %d ",min, max);
+    printf("\nMinimum value : %d \nMaximum value : %d ",minNode(root), maxNode(root));
 
     return 0;
 }
