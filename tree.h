@@ -7,7 +7,7 @@
 
 // Definition for a binary tree node
 typedef struct TreeNode {
-    int key;
+    int data;
     struct TreeNode* left;
     struct TreeNode* right;
 }TreeNode;
