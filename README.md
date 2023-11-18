@@ -1,25 +1,25 @@
 # Tree Exercices
 Some exercices about create and traverse in trees
+
 # Description about the program:
 This C program allows users to input values to dynamically create a binary tree. 
 The program then performs in-order, pre-order, and post-order traversals on the constructed tree.
 
-# Files
-## tree.h
-
+# Files :
+## tree.h file :
 ### Description: 
 Header file containing function prototypes and the definition of the TreeNode struct for binary tree nodes.
 ### Functions:
-* createNode: Creates a new tree node.
-* inorderTraversal: Performs in-order traversal.
-* preorderTraversal: Performs pre-order traversal.
-* postorderTraversal: Performs post-order traversal.
-* insertNode: Inserts a key into the binary tree.
-* getSize: Gets the size of the tree from user input.
-* getValues: Gets values from the user and inserts them into the tree.
-* printUsageTraversal: Prints the traversal corresponding to the user's option.
+* `createNode`: Creates a new tree node.
+* `inorderTraversal`: Performs in-order traversal.
+* `preorderTraversal`: Performs pre-order traversal.
+* `postorderTraversal`: Performs post-order traversal.
+* `insertNode`: Inserts a key into the binary tree.
+* `getSize`: Gets the size of the tree from user input.
+* `getValues`: Gets values from the user and inserts them into the tree.
+* `printUsageTraversal`: Prints the traversal corresponding to the user's option.
 
-## tree.c
+## tree.c file:
 ## Description: 
 Source file containing the main function to run the program.
 
@@ -44,8 +44,8 @@ gcc -o tree *.c
 ./tree
 ```
 
-## Contributing
+## Contributing:
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-## License
+## License:
 This project is licensed under the MIT License - see the LICENSE file for details.
