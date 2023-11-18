@@ -1,6 +1,13 @@
 #include "tree.h"
+/**
+ * insertNode - Function to insert a key into the binary tree
+ * 
+ * @root: the root of the tree
+ * @data: the data that we'll be in the created Node
+ * Return: pointer to the root of the tree after 
+ * insert the new Node
+*/
 
-// Function to insert a key into the binary tree
 TreeNode* insertNode(TreeNode* root, int data)
 {
     if (root == NULL) {

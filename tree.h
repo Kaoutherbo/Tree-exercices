@@ -13,7 +13,7 @@ typedef struct TreeNode {
 }TreeNode;
 
 // prototypes of functions
-TreeNode* createNode(int key);
+TreeNode* createNode(int data);
 void inorderTraversal(TreeNode* root);
 void preorderTraversal(TreeNode* root);
 void postorderTraversal(TreeNode* root);
