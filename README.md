@@ -48,7 +48,7 @@ Inserts a key into the binary tree.
 * data: The value to insert into the tree.
 * Return: A pointer to the modified tree.
   
-### 5. `getSize`:
+### 6. `getSize`:
 
 #### Description:
 Gets the size of the tree from user input.
@@ -56,7 +56,7 @@ Gets the size of the tree from user input.
 * msg: A message to be printed for user input.
 * Return: The size of the tree.
 
-### 6. `getValues`:
+### 7. `getValues`:
 
 #### Description:
 Gets values from the user and inserts them into the tree.
@@ -65,7 +65,7 @@ Gets values from the user and inserts them into the tree.
 * size: The size of the tree.
 
 
-### 7. `printUsageTraversal`:
+### 8. `printUsageTraversal`:
 #### Description:
 Prints the usage traversal corresponding to the user's option.
 #### Parameters:
@@ -74,7 +74,7 @@ Prints the usage traversal corresponding to the user's option.
 * Return: void.
 
 
-### 11. `searchNode`:
+### 9. `searchNode`:
 #### Description:
 Searches for a key in the binary tree and returns true if the key is found, and false otherwise.
 #### Parameters:
@@ -82,7 +82,7 @@ Searches for a key in the binary tree and returns true if the key is found, and 
 * key: The value to search for in the tree.
 * Return: true if the key is found, false otherwise.
 
-### 9. `minNode`:
+### 10. `minNode`:
 #### Description:
 Finds the minimum value in the binary tree.
 #### Parameters:
@@ -90,14 +90,14 @@ Finds the minimum value in the binary tree.
 * Return: The minimum value found in the tree.
 
 
-### 10. `maxNode`:
+### 11. `maxNode`:
 #### Description:
 Finds the maximum value in the binary tree.
 #### Parameters:
 * root: Pointer to the root of the tree.
 * Return: The maximum value found in the tree.
 
-### 8. `nbrNode`:
+### 12. `nbrNode`:
 #### Description:
 Counts the number of nodes in the binary tree.
 #### Parameters:
