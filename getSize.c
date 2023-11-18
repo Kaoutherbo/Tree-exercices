@@ -11,6 +11,8 @@ int getSize(char *msg)
 {
     int size;
     printf("%s", msg);
+    scanf("%d", &size);
+
     if (size <= 0)
     {
         printf("Error! , Invalid size please try again ! \n");

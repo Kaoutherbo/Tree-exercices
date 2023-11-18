@@ -8,7 +8,7 @@
 */
  
 TreeNode* createNode(int data) {
-     TreeNode* newNode = ( TreeNode*)malloc(sizeof( TreeNode));
+     TreeNode* newNode = (TreeNode*)malloc(sizeof( TreeNode));
     newNode->data = data;
     newNode->left = newNode->right = NULL;
     return newNode;
