@@ -6,30 +6,31 @@
  * Return: Always 0
 */
 int main() {
-    // Example of a binary tree
-    //        1
-    //       / \
-    //      2   3
-    //     / \
-    //    4   5
+    TreeNode* root = NULL;
+    int n, value;
 
-    struct TreeNode* root = createNode(1);
-    root->left = createNode(2);
-    root->right = createNode(3);
-    root->left->left = createNode(4);
-    root->left->right = createNode(5);
+    // Get the number of nodes from the user
+    printf("Enter the number of nodes: ");
+    scanf("%d", &n);
 
-    // In-order traversal: 4 2 5 1 3
+    // Get values from the user and insert them into the tree
+    printf("Enter the values:\n");
+    for (int i = 0; i < n; ++i) {
+        scanf("%d", &value);
+        root = insertNode(root, value);
+    }
+
+    // In-order traversal
     printf("In-order traversal: ");
     inorderTraversal(root);
     printf("\n");
 
-    // Pre-order traversal: 1 2 4 5 3
+    // Pre-order traversal
     printf("Pre-order traversal: ");
     preorderTraversal(root);
     printf("\n");
 
-    // Post-order traversal: 4 5 2 3 1
+    // Post-order traversal
     printf("Post-order traversal: ");
     postorderTraversal(root);
     printf("\n");

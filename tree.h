@@ -17,5 +17,7 @@ TreeNode* createNode(int key);
 void inorderTraversal(TreeNode* root);
 void preorderTraversal(TreeNode* root);
 void postorderTraversal(TreeNode* root);
+TreeNode* insertNode(TreeNode* root, int data);
+int getSize(char *msg);
 
 #endif  /* TREE_H */
