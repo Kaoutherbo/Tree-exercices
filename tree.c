@@ -7,33 +7,19 @@
 */
 int main() {
     TreeNode* root = NULL;
-    int n, value;
+    int option;
 
     // Get the number of nodes from the user
-    printf("Enter the number of nodes: ");
-    scanf("%d", &n);
+    int size = getSize("Enter the number of nodes: ");
 
     // Get values from the user and insert them into the tree
-    printf("Enter the values:\n");
-    for (int i = 0; i < n; ++i) {
-        scanf("%d", &value);
-        root = insertNode(root, value);
-    }
+    getValues(root, size);
 
-    // In-order traversal
-    printf("In-order traversal: ");
-    inorderTraversal(root);
-    printf("\n");
+    // get the option of traversal
+    printf("Press: \n1) for Inorder Traversal\n2) for Preorder Traversal\n3) for Postorder Traversal\n");
+    scanf("%d", option);
 
-    // Pre-order traversal
-    printf("Pre-order traversal: ");
-    preorderTraversal(root);
-    printf("\n");
-
-    // Post-order traversal
-    printf("Post-order traversal: ");
-    postorderTraversal(root);
-    printf("\n");
-
+    // print the usage traversal corresponding to the user input
+    printUsageTraversal(root, option);
     return 0;
 }
