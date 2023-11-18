@@ -111,14 +111,6 @@ Source file containing the main function to run the program.
 ## Functions: 
 Refer to tree.h for function descriptions.
 
-
-## Usage:
-* Gets the number of nodes from the user.
-* Gets values from the user and inserts them into the tree.
-* Prompts the user to choose a traversal option (in-order, pre-order, or post-order).
-* Prints the corresponding traversal.
-
-
 ## Compile the Program:
 ```
 gcc -o tree *.c
@@ -128,6 +120,49 @@ gcc -o tree *.c
 ```
 ./tree
 ```
+
+## Usage:
+
+1. **Gets the number of nodes from the user:**
+   - Run the program by executing the following commands in your terminal:
+     ```
+     ./tree
+     ```
+   - Enter the number of nodes when prompted and press `Enter`.
+
+2. **Gets values from the user and inserts them into the tree:**
+   - After entering the number of nodes, the program will prompt you to enter values for each node.
+   - For each prompt, enter a numerical value and press `Enter`.
+
+3. **Prompts the user to choose a traversal option:**
+   - After entering the values, the program will prompt you with options for tree traversal:
+     ```
+     Press:
+     1) for Inorder Traversal
+     2) for Preorder Traversal
+     3) for Postorder Traversal
+     ```
+   - Enter the corresponding number for the desired traversal option and press `Enter`.
+
+4. **Prints the corresponding traversal:**
+   - The program will then print the result of the selected traversal option based on the constructed binary tree.
+   - The result will be displayed in the console.
+
+5. **Additional Functions:**
+   - The program also provides additional functions for further analysis of the binary tree:
+     - **Search for a Node:**
+       - To search for a specific value in the tree, you can use the `searchNode` function. 
+        
+     - **Find Minimum Value:**
+       - To find the minimum value in the tree, you can use the `minNode` function.
+         
+     - **Find Maximum Value:**
+       - To find the maximum value in the tree, you can use the `maxNode` function.
+
+     - **Count Number of Nodes:**
+       - To count the number of nodes in the tree, you can use the `nbrNode` function.
+         
+
 
 ## Contributing:
 Contributions are welcome! Feel free to open issues or submit pull requests.
