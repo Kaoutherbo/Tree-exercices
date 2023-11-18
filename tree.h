@@ -26,4 +26,5 @@ void printUsageTraversal(TreeNode *root, int option);
 bool searchNode(TreeNode* root, int key);
 int minNode(TreeNode* root);
 int maxNode(TreeNode* root);
+int nbrNode(TreeNode* root);
 #endif  /* TREE_H */

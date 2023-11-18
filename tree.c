@@ -32,7 +32,9 @@ int main() {
         printf("\n%d is not found in the tree.\n",key);
     
     // print the min and max of tree
-    printf("\nMinimum value : %d \nMaximum value : %d ",minNode(root), maxNode(root));
+    printf("\nMinimum value : %d \nMaximum value : %d\n",minNode(root), maxNode(root));
 
+    // print the number of nodes in the tree
+    printf("The number of nodes in the tree is : %d", nbrNode(root));
     return 0;
 }
