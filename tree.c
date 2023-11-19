@@ -35,6 +35,10 @@ int main() {
     printf("\nMinimum value : %d \nMaximum value : %d\n",minNode(root), maxNode(root));
 
     // print the number of nodes in the tree
-    printf("The number of nodes in the tree is : %d", nbrNode(root));
+    printf("The number of nodes in the tree is : %d\n", nbrNode(root));
+
+    // print the height of the tree
+    printf("The height of the tree is : %d", heightTree(root));
+
     return 0;
 }

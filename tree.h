@@ -27,4 +27,6 @@ bool searchNode(TreeNode* root, int key);
 int minNode(TreeNode* root);
 int maxNode(TreeNode* root);
 int nbrNode(TreeNode* root);
+int heightTree(TreeNode* root);
+
 #endif  /* TREE_H */
