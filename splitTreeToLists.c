@@ -2,7 +2,7 @@
 
 /**
  * splitTreeToLists - function that classifies elements of a binary tree
- * into two linked lists based on val ,if elementes of tree are greater then
+ * into two linked lists based on val using infix Treaveral ,if elementes of tree are greater then
  * or equal to val the we add it into list1, otherwise we add it list2.
  * 
  * @root: Pointer to the root of the tree.
@@ -12,7 +12,6 @@
  * Return: void
 */
 
-// using infix Treaveral
 void splitTreeToLists(TreeNode* root, Node** list1, Node** list2, int val)
 {
     if (root == NULL) {
