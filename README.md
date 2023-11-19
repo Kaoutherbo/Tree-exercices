@@ -211,7 +211,7 @@ gcc -o tree *.c
         
      - **Split Tree Elements into Linked Lists:**
        - To classify elements of a binary tree into two linked lists based on a certain condition, you can use the `splitTreeToLists` function.
-        
+
 
 ## Contributing:
 Contributions are welcome! Feel free to open issues or submit pull requests.
