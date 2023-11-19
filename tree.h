@@ -13,6 +13,12 @@ typedef struct TreeNode {
     struct TreeNode* right;
 }TreeNode;
 
+// 
+typedef struct Node {
+    int val;
+    struct Node* next;
+}Node;
+
 // prototypes of functions
 TreeNode* createNode(int data);
 void inorderTraversal(TreeNode* root);
@@ -28,5 +34,9 @@ int minNode(TreeNode* root);
 int maxNode(TreeNode* root);
 int nbrNode(TreeNode* root);
 int heightTree(TreeNode* root);
+Node* createNodeList(int val);
+Node* insertNodeList(Node*head, int val);
+void printList(Node *head);
+void splitTreeToLists(TreeNode* root, Node** list1, Node** list2, int val);
 
 #endif  /* TREE_H */

@@ -17,28 +17,48 @@ int main() {
 
     // get the option of traversal
     printf("Press: \n1) for Inorder Traversal\n2) for Preorder Traversal\n3) for Postorder Traversal\n");
-    scanf("%d",&option);
+    scanf("%d", &option);
 
     // print the usage traversal corresponding to the user input
     printUsageTraversal(root, option);
 
-    // get the key 
+    // create two linked lists to store elements
+    Node* list1 = NULL;
+    Node* list2 = NULL;
+
+    // get the key
     int key = getNum("Enter the number that you want to search about it in the tree: ");
-    
+
     // check if key is in tree or not
-    if(searchNode(root, key))
-        printf("\n%d is found in the tree.\n",key);
+    if (searchNode(root, key))
+        printf("\n%d is found in the tree.\n", key);
     else
-        printf("\n%d is not found in the tree.\n",key);
-    
+        printf("\n%d is not found in the tree.\n", key);
+
     // print the min and max of tree
-    printf("\nMinimum value : %d \nMaximum value : %d\n",minNode(root), maxNode(root));
+    printf("\nMinimum value : %d \nMaximum value : %d\n", minNode(root), maxNode(root));
 
     // print the number of nodes in the tree
     printf("The number of nodes in the tree is : %d\n", nbrNode(root));
 
     // print the height of the tree
-    printf("The height of the tree is : %d", heightTree(root));
+    printf("The height of the tree is : %d\n", heightTree(root));
+
+    int val = getNum("Enter a value : ");
+    // test infixList function
+    splitTreeToLists(root, &list1, &list2, val);
+
+    // print the elements in list1
+    printf("\nElements in list1: ");
+    printList(list1);
+
+    // print the elements in list2
+    printf("\nElements in list2: ");
+    printList(list2);
+
+    // Free the memory allocated for the linked lists
+    free(list1);
+    free(list2);
 
     return 0;
 }
