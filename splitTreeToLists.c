@@ -12,6 +12,7 @@
  * Return: void
 */
 
+// using infix Treaveral
 void splitTreeToLists(TreeNode* root, Node** list1, Node** list2, int val)
 {
     if (root == NULL) {
