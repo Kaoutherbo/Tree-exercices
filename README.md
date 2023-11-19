@@ -104,6 +104,9 @@ Counts the number of nodes in the binary tree.
 * root: Pointer to the root of the tree.
 * Return: The total number of nodes in the tree.
 
+### 13. `heightTree`:
+
+
 ## tree.c file:
 ## Description: 
 Source file containing the main function to run the program.
