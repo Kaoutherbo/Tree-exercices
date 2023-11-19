@@ -13,7 +13,7 @@ typedef struct TreeNode {
     struct TreeNode* right;
 }TreeNode;
 
-// Definition for a singaly linked list
+// Definition for a singaly linked list node
 typedef struct Node {
     int val;
     struct Node* next;
